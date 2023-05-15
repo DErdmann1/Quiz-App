@@ -14,11 +14,6 @@ header {
     
 }
 
-body {
-
-
-}
-
 .questions {
     display: flex;
     justify-content: center;
@@ -26,7 +21,7 @@ body {
     margin-top: 40px;
     border: 2px solid black;
     max-width: 700px;
-    padding: 100px;
+    padding: 50px;
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: column;
@@ -46,21 +41,38 @@ body {
     font-size: small;
     font-family: serif;
     text-align: center;
-    margin: 30px;
+    margin-top: 70px;
+    margin-right: 240px;
     align-items: center;
     flex-direction: row;
+    margin-bottom: -40px;
 
   }
 
   .categorys {
-    margin: 10px;
-    padding: auto;
-    border: 1px solid black;
-    justify-content: ;
-    align-items: ;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    padding: 2px;
+    border-style: solid;
+    flex-wrap: wrap;
         
 }
 
-footer {
-    
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgrey;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    padding: 30px;
 }
