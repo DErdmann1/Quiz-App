@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    border:  5px solid black;
+    height: 80px;
+    padding-top: 10px;
+    
+}
+
+body {
+
+}
+
