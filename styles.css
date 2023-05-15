@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     text-align: center;
     font-family: serif;
@@ -14,19 +15,23 @@ header {
     
 }
 
+
 .questions {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
     border: 2px solid black;
-    max-width: 700px;
-    padding: 50px;
+    max-width: 800px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     flex-direction: column;
     font-weight: bold;
+
 }
+
 
 .button1 {
     color: serif black;
@@ -36,29 +41,25 @@ header {
     
 }
 
-.flex-container {
+
+.tags {
     display: flex;
-    font-size: small;
-    font-family: serif;
-    text-align: center;
-    margin-top: 70px;
-    margin-right: 440px;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: -40px;
+    list-style: none;
+    padding: 1px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-right: 550px;
 
-  }
-
-  .categorys {
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    padding: 2px;
-    border-style: solid;
-    flex-wrap: wrap;
-        
 }
+  
+.tag {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
 
 .footer {
     position: fixed;
@@ -70,12 +71,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
+
 
 .footer-icon {
     padding: 30px;
-}
-
-.material-symbols-outlined {
     
 }
