@@ -11,7 +11,14 @@ header {
     border:  5px solid black;
     height: 80px;
     padding-top: 10px;
+    background-color: burlywood;
+    position: sticky;
+    top: 0px;
     
+}
+
+body { 
+    background-color: lightgrey;
 }
 
 .questions {
@@ -26,11 +33,13 @@ header {
     margin-right: auto;
     flex-direction: column;
     font-weight: bold;
+    background-color: burlywood;
+    border-radius: 20px;
 }
 
 .button1 {
     color: serif black;
-    background-color: white;
+    background-color: green;
     padding: 12px;
     margin-top: 12px;
     
@@ -57,6 +66,7 @@ header {
     padding: 2px;
     border-style: solid;
     flex-wrap: wrap;
+    background-color: grey;
         
 }
 
@@ -65,17 +75,22 @@ header {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: rgb(42, 33, 33);
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .footer-icon {
-    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
 }
 
 .material-symbols-outlined {
-    
+  font-variation-settings:
+  'FILL' 1, 'wght' 1000, 'GRAD' 0, 'opsz' 48;
 }
