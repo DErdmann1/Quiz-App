@@ -23,7 +23,7 @@ body {
 
 .questions {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 40px;
   border: 2px solid black;
@@ -48,16 +48,12 @@ body {
   display: flex;
   font-size: small;
   font-family: serif;
-  text-align: center;
-  margin-top: 70px;
-  margin-right: 240px;
-  align-items: center;
-  flex-direction: row;
-  margin-bottom: -40px;
+  justify-content: flex-start;
+  border: solid;
+  flex-wrap: wrap;
 }
 
 .categorys {
-  display: flex;
   margin-left: auto;
   margin-top: auto;
   margin-bottom: 10px;
