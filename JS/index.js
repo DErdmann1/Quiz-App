@@ -1,5 +1,9 @@
-const markedBookMark = document.querySelector(".fa-constant");
+// Funktion zum Umschalten des Modus
+function toggleDarkMode() {
+  var body = document.body;
+  body.classList.toggle("dark-mode");
+}
 
-markedBookMark.addEventListener("click", (event) => {
-  event.target.classList.toggle("red");
-});
+// Event-Listener für den Button
+var darkModeButton = document.getElementById("dark-mode-button");
+darkModeButton.addEventListener("click", toggleDarkMode);
