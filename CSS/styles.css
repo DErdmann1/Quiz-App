@@ -81,3 +81,8 @@ h2 {
   margin-top: 100px;
   margin-left: 250px;
 }
+
+.card__bookmark {
+  width: 40px;
+  height: 40px;
+}
